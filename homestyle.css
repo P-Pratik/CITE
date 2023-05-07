@@ -1,32 +1,69 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #5a5a5a;
   }
   
   h1 {
-    color: #333333;
+    color: #b0ffac;
     text-align: center;
     margin-top: 150px;
   }
   
   p {
-    color: #666666;
+    color: #ffffff;
     text-align: center;
   }
   
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  .top-menu {
+    background-color: #333333;
   }
   
-  .button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+  .top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .top-menu li { 
+    float: right;
+  }
+  
+  .top-menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    border-radius: 4px;
-    font-size: 16px;
-    margin: 0 10px;
+  }
+  
+  .top-menu li a:hover {
+    background-color: #4CAF50;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #595959;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   
