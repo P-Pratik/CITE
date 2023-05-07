@@ -87,9 +87,12 @@ body {
     color: white;
   }
 
+  .user-dropdown{
+    position: relative;
+  }
+
   .user-dropdown-content {
     position: absolute;
-    right:20px;
     width: 160px;
     padding: 10px;
     background-color: #33333300;
