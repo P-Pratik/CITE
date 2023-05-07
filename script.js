@@ -6,7 +6,7 @@ function toggleDropdown(event) {
   
   window.onclick = function(event) {
     if (!event.target.matches(".dropbtn")) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var dropdowns = document.getElementsByClassName("user-dropdown-content");
       for (var i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
         if (openDropdown.classList.contains("show")) {

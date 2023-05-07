@@ -2,10 +2,10 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     background-color: #2b2d34;
-    animation: tease 1s;
+    animation: Tease 1s;
   }
 
-  @keyframes tease {
+  @keyframes Tease {
     from{
       opacity: 0;
     }
@@ -86,13 +86,8 @@ body {
   .top-menu li a:hover {
     color: white;
   }
-  
-  .dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .dropdown-content {
+
+  .user-dropdown-content {
     position: absolute;
     right:20px;
     width: 160px;
@@ -106,7 +101,7 @@ body {
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
   }
   
-  .dropdown-content a {
+  .user-dropdown-content a {
     color: black;
     padding: 10px 12px;
     text-decoration: none;
