@@ -2,19 +2,42 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     background-color: #2b2d34;
+    animation: tease 1s;
   }
-  
+
+  @keyframes tease {
+    from{
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes easeIn {
+    from {
+      opacity: 0.2;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   h1 {
     font-size: 140px;
     color: #b0ffac;
     text-align: center;
     margin-top: 150px;
+    animation: easeIn 1s;
   }
   
   p {
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    animation: easeIn 1s;
   }
 
   .logo {
@@ -109,6 +132,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    animation: easeIn 1s;
   }
   
   .container a {
