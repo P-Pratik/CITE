@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  p {
+    color: #666666;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
