@@ -18,20 +18,35 @@ body {
   
   .top-menu {
     background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
   }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+
   
   .top-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     display: flex;
-    justify-content: flex-end;
   }
-  
-  .top-menu li { 
-    float: right;
-  }
+
+.top-menu li {
+  margin-left: 10px;
+}
   
   .top-menu li a {
     display: block;
