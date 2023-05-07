@@ -4,12 +4,14 @@ body {
   }
   
   h1 {
+    font-size: 140px;
     color: #b0ffac;
     text-align: center;
     margin-top: 150px;
   }
   
   p {
+    font-size: 30px;
     color: #ffffff;
     text-align: center;
   }
@@ -66,5 +68,15 @@ body {
   
   .show {
     display: block;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .container a {
+    margin-bottom: 10px;
   }
   
