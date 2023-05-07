@@ -2,7 +2,7 @@
 An initiative by the students, for the students
 
 C:- Connect 
-I:-  Inform 
+I:- Inform 
 T:- Troubleshoot 
 E:- Explore
 
